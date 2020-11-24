@@ -1,0 +1,80 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin-bottom: 100px;
+}
+header{
+    background-color: #F0FFF0;
+}
+/* --------------------------header---------------------- */
+.main-btn{
+    border-radius: 30px;
+}
+.banner-top-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FD511A;
+}
+.banner-text h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px; 
+}
+.banner-text span{
+ color: #21B573;
+}
+/* --------------------------------information----------------- */
+.info-card:hover{
+    box-shadow: 0 0 20px lightgrey;
+}
+/* ---------------------------------online course---------------------- */
+.online-course-header{
+    color:  #413960;
+    text-align: center;
+    margin-bottom: 50px
+
+}
+.card, .card-footer{
+    border: none;
+}
+.card-title{
+    color: #413960;
+}
+/* ----------------------Testimonial----------------- */
+.testimonial-header{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+    text-align: center;
+}
+/* ---------------------alumni--------------- */
+.alumni{
+    border-radius: 10px;
+}
+.carousel-indicators li{
+    height: 8px;
+    width: 16px;
+    border-radius: 20px;
+    border: none;
+    background: gray;
+}
+.carousel-indicators .active{
+    height: 8px;
+    width: 16px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(to right, orange, salmon);
+}
+.list-item {
+    text-decoration: none;
+    list-style: none;
+}
+.footer-container {
+    background: #b2dfdb
+}
